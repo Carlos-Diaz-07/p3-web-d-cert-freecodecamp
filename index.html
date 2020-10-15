@@ -7,43 +7,58 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<body>   
+<body> 
+    <header id="header">  
         <nav id="nav-bar">
             <img src="/images/fat-degu-full.png" id="header-img" alt="company logo">
             <ul id="nav-link-list">
-                <li class="nav-link-container"><a href="" class="nav-link">form</a></li>
-                <li class="nav-link-container"><a href="" class="nav-link">video</a></li>
-                <li class="nav-link-container"><a href="" class="nav-link">shopping</a></li>
+                <li class="nav-link-container"><a href="#features-section" class="nav-link">Features</a></li>
+                <li class="nav-link-container"><a href="#video-section" class="nav-link">Video</a></li>
+                <li class="nav-link-container"><a href="#buy-section" class="nav-link">Pricing</a></li>
             </ul>
         </nav>
+    </header>
     <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h2>Get to know more</h2>
         <input type="email" name="email" id="email" placeholder="Enter your email address">
-        <button type="submit" class="button" value="Join Us">Join Us</button>
+        <input type="submit" id="submit" class="button" value="Join Us">
     </form>
     <section id="features-section">
         <div class="feature-div">
             <img class="feature-img" src="images/ovni.png" alt="U.F.O. logo">
+            <h3>Not from Earth</h3>
             <p>This community DOES NOT BELIEVE Degus are from this world. As soon as you see one, you will understand. Very much like a Flerken, looks deceive you. You MUST follow us and share whatever you learn about your Degu. This is vital for the human race survival.</p>
         </div>
         <div class="feature-div">
             <img class="feature-img" src="images/flying.png" alt="flying squirrel logo">
+            <h3>Be Aware</h3>
             <p>No one in this community have ever seen one of them flying but, we DO BELIEVE they can fly. They are hidding many things from us. Please JOIN US and help us discover a Degu's true capabilities.</p>
         </div>
         <div class="feature-div">
             <img class="feature-img" src="images/cat.png" alt="orange cat bending logo">
+            <h3>Caution</h3>
             <p>DO NOT ever let a cat get near a Degu. In the best case scenario the cat is just a cat and your Degu will just eat it (not a big loss). In the worst case the cat will be a Flerken and your Degu will have stomach pains for a week.</p>
         </div>
+        
     </section>
-    <section class="iframe-container">
+    <section class="iframe-container" id="video-section">
         <iframe id="video" src="https://www.youtube.com/embed/LsgcdGNLdEI" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </section>
     <section id="buy-section">
-
+        <div id="buy-div">
+            <h4 id="buy-title">Degu + Starter Kit</h4>
+            <h5 id="buy-subtitle">Starter kit includes:</h5>
+            <ul id="buy-list">
+                <li id="buy-list-item">Large Cage</li>
+                <li id="buy-list-item">5kg Food Bag</li>
+                <li id="buy-list-item">High Tech Laser Security System</li>
+            </ul>
+            <h3 id="price">£299</h3>
+            <button class="buy-button">Add to Cart</button>
+        </div>
+        
     </section>
-    <footer>
-
-    </footer>
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
 </script>
